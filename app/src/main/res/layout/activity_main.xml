@@ -9,6 +9,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <LinearLayout
         android:id="@+id/input_layout"
         android:layout_width="match_parent"
@@ -53,5 +58,7 @@
         <!--android:layout_height="match_parent"-->
         <!--android:layout_below="@id/input_layout"-->
         <!--/>-->
+
+
 
 </RelativeLayout>
